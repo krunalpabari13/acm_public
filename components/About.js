@@ -5,33 +5,21 @@ import { Container, Row, Col } from "reactstrap";
 const About = () => {
 
   return (
-    <section className="section bg-light" id="about">
+    <section className="section " id="about">
       <Container>
         <Row className="justify-content-center">
-          <Col lg={6} md={8}>
+          <Col lg={8} md={8}>
             <div className="title text-center mb-5">
               <h3 className="font-weight-normal text-dark">About <span className="text-warning">Us</span></h3>
-              <p className="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+              <div className='container'>
+              <p className='text-muted'>We are thrilled to announce that Pandit Deendayal Energy University is hosting a Youth Parliament event . This remarkable event is being conducted in conjunction with the esteemed G20 and Y20 summits, and we extend a warm invitation to all colleges in the vicinity to participate.</p>
+<p className='text-muted'>The Youth Parliament aims to empower young minds with the knowledge and tools needed to tackle some of the world's most pressing issues. Our agendas for this event will revolve around the United Nations' Sustainable Development Goals (SDGs), reflecting our commitment to creating a more sustainable and equitable future. </p>
+<p className='text-muted'>Join us in this exciting endeavor as we engage in meaningful discussions, exchange innovative ideas, and work collectively towards a better world. Stay tuned for more updates on this transformative event, as we look forward to inspiring and shaping the leaders of tomorrow.</p>
+          </div>
             </div>
           </Col>
         </Row>
-        <Row>
-          <Col md={4}>
-            <h2 className="font-weight-light line-height-1_6 text-dark mb-4">Lorem Ipsum has been the industry's standard dummy text</h2>
-          </Col>
-          <Col md={{ size:7, offset :1 }}>
-            <Row>
-              <Col md={6}>
-                <h6 className="text-dark font-weight-light f-20 mb-3">Our Mission</h6>
-                <p className="text-muted font-weight-light">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
-              </Col>
-              <Col md={6}>
-                <h6 className="text-dark font-weight-light f-20 mb-3">Our Vision</h6>
-                <p className="text-muted font-weight-light">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
-              </Col>
-            </Row>
-          </Col>
-        </Row>
+
       </Container>
     </section>
   );

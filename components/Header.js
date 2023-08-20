@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+
 import {
   Collapse,
   Navbar,
@@ -27,23 +28,25 @@ const Header = () => {
   }
 
   return (
-    <Navbar color="light" light container="md" expand="md" sticky={sticky ? "top" : ""}>
-      <NavbarBrand href="/">LOGO</NavbarBrand>
+    <Navbar color="light"  light container="md" expand="md" sticky={sticky ? "top" : ""}>
+      <NavbarBrand href="/"  >
+        <img src='./images/youth_logo.png' height={60} width={100}></img>
+      </NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
-        <Nav className="ms-auto" navbar>
-          <Nav className="m-auto" navbar>
+        <Nav className="" navbar>
+          <Nav className="" navbar>
             <NavItem>
-              <NavLink href="/">Home</NavLink>
+              <NavLink href="/" >Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#feature">Features</NavLink>
+              <NavLink href="#feature" >Features</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#service">Services</NavLink>
+              <NavLink href="#service" >Services</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#about">About</NavLink>
+              <NavLink  href="#about">About</NavLink>
             </NavItem>
           </Nav>
         </Nav>
