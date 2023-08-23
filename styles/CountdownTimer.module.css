@@ -1,0 +1,14 @@
+.circle {
+     /* width: 500px;
+    height: 500px;
+    border-radius: 50%;
+   
+    border-color: black;
+    border-width: 5px;  */
+    /* background-color: rgb(222, 219, 42); */
+    display: flex;
+
+  
+    font-size: 2em;
+  }
+  

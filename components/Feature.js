@@ -51,9 +51,8 @@ const FeatureBox = (props) => {
 const Feature = () => {
 
   const features = [
-    {id : 1, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
-    {id : 2, img : "./images/Group Members.png", title : "LOREM IPSUM", desc : "Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.", link : "/"},
-    {id : 3, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
+    {id : 1, img : "./images/45.png", title : "About the Event:", desc : "The Youth Parliament event is a unique opportunity for students to immerse themselves in parliamentary proceedings and engage in stimulating debate competitions. We believe that the youth holds the power to shape the future, and this event aims to provide a platform for young minds to voice their opinions, deliberate on important issues, and actively participate in policy-making."},
+    {id : 2, img : "./images/Group Members.png", title : "Event Benefits:", desc : "This event is perfect for students who have a vision for the nation, a passion for debating, an interest in policy-making, a love for public speaking, and a mindset for problem-solving."},
   ];
 
   return (
